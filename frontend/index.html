@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Display</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="app">
+        <h1>User Input Display</h1>
+        <div id="authSection">
+            <button id="loginButton">Login with Internet Identity</button>
+            <button id="logoutButton" style="display:none;">Logout</button>
+        </div>
+        <div id="inputSection" style="display:none;">
+            <input type="text" id="userInput" placeholder="Enter your input">
+            <button id="submitButton">Submit</button>
+        </div>
+        <div id="displaySection">
+            <h2>Submitted Inputs:</h2>
+            <ul id="inputList"></ul>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
