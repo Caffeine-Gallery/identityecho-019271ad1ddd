@@ -43,3 +43,11 @@ button:hover {
     margin-bottom: 5px;
     border-radius: 3px;
 }
+
+#errorMessage {
+    background-color: #ffcccc;
+    color: #cc0000;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
